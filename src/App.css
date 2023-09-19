@@ -5,9 +5,7 @@
 
 body{
     background-color: #F7F8F9; 
-}
-.popUppage{
-    display: block;
+    overflow: hidden;
 }
 
 .landingPage{
@@ -15,7 +13,7 @@ body{
     height: 100vh;
     position: relative;
     top: 32rem;
-    margin: 0 1rem;
+    margin:0 1rem;
 }
 
 .heading{
@@ -104,6 +102,9 @@ body{
 
 
 @media screen and (min-width:500px) {
+    body{
+        overflow-y: scroll;
+    }
 
     .landingPage{
         width: 350px;
@@ -139,7 +140,6 @@ body{
   
     
     .signUpPage{
-        /* margin: 3rem 1.2rem; */
         position: absolute;
         left: 50%;
         top: 50%;
