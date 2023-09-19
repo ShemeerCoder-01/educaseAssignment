@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    overflow: hidden;
 }
 
 body{
@@ -50,33 +49,14 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 5px;
 }
 
-.form > input{
+.form > .input{
     width: 327px;
-    margin:1.25rem 0;
+    margin-top: 1rem;
     font-size: 15px;
     outline: none;
-    border: 1px solid #CBCBCB;
-    border-radius: 6px;
-    padding: 1rem;
-}
-
-::placeholder{
-    padding-left: 1rem;
-}
-
-#email::before{
-    content: "Email Address";
-    color: #6C25FF;
-    position: absolute;
-    top: 3px;
-    left: 20px;
-}
-
-#password::before{
-    content: "Password";
-    color: #6C25FF;
 }
 
 .settingPage{
@@ -159,7 +139,7 @@ body{
   
     
     .signUpPage{
-        margin: 3rem 1.2rem;
+        /* margin: 3rem 1.2rem; */
         position: absolute;
         left: 50%;
         top: 50%;
