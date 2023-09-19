@@ -11,7 +11,7 @@ function LandingPage() {
   const handleClick = () => {
     navigate('/signup');
   }
-  console.log(process.env.REACT_APP_API_KEY);
+  
   
   return (
     <div className='landingPage'>
