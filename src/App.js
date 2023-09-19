@@ -7,6 +7,7 @@ import SignUpPage from './Pages/SignUpPage';
 import SettingPage from './Pages/SettingPage';
 
 function App() {
+  
   return (
     <div className="App"> 
       <Routes>
