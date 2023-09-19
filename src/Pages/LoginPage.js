@@ -52,7 +52,8 @@ function LoginPage() {
               borderColor: "#CBCBCB"
             }
           }}
-          label="Enter Email Address"
+          label="Email Address"
+          placeholder='Enter email address'
           variant='outlined'
           type='email'
           id='email'
@@ -78,7 +79,8 @@ function LoginPage() {
               borderColor: "#CBCBCB"
             }
           }}
-          label="Enter Password"
+          label="Password"
+          placeholder='Enter password'
           variant='outlined'
           type='password'
           id='password'
