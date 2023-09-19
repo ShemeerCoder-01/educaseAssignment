@@ -12,6 +12,7 @@ function LandingPage() {
     navigate('/signup');
   }
   console.log(process.env.REACT_APP_API_KEY);
+  
   return (
     <div className='landingPage'>
       <h1 className='heading'>Welcome to PopX</h1>
