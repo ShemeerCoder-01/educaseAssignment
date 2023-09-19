@@ -1,5 +1,5 @@
 # educaseassignment - A Simple React Authentication App
-## MyApp is a basic React application that demonstrates user authentication. It consists of four main pages: Landing, Sign Up, Login, and Settings. Users can sign up, log in, view their profile information.
+## educaseAuth app is a basic React application that demonstrates user authentication. It consists of four main pages: Landing, Sign Up, Login, and Settings. Users can sign up, log in, view their profile information.
 
 Landing Page: The landing page welcomes users and provides options to either log in or sign up.
 
