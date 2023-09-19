@@ -1,38 +1,223 @@
-.App {
-  text-align: center;
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+    background-color: #F7F8F9; 
+}
+.popUppage{
+    display: block;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.landingPage{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: 32rem;
+    margin: 0 1rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.heading{
+    font: normal normal medium 28px/17px Rubik;
+    color: #1D2226;
 }
 
-.App-link {
-  color: #61dafb;
+.para{
+    margin: 0.5rem 0;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #1D2226;
+    opacity: 0.6;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.loginPage,.signUpPage{
+    margin: 3rem 1.2rem;
 }
+
+.login-heading{
+    width: 200px;
+    height: 70px;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 36px;
+    color: #1D2226;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form > input{
+    width: 327px;
+    margin:1.25rem 0;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid #CBCBCB;
+    border-radius: 6px;
+    padding: 1rem;
+}
+
+::placeholder{
+    padding-left: 1rem;
+}
+
+#email::before{
+    content: "Email Address";
+    color: #6C25FF;
+    position: absolute;
+    top: 3px;
+    left: 20px;
+}
+
+#password::before{
+    content: "Password";
+    color: #6C25FF;
+}
+
+.settingPage{
+    width: 90%;
+    height: 100vh;
+    margin-top: 3rem;
+    padding:1.25rem 0.75rem;
+    background: #F7F8F9 0% 0% no-repeat padding-box;
+}
+
+.container{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-top: 2rem;
+    display: flex;
+    gap: 1.1rem;
+}
+
+.container > .left > #user{
+    border-radius: 50%;
+}
+
+.container > .left > #icon{
+    border-radius: 50%;
+    position: relative;
+    right: 18px;
+}
+
+
+.userEmail{
+    margin-top: 3px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #1D2226;
+}
+
+.settings-para{
+    margin: 1.5rem 0;
+    padding-right: 1.2rem;
+    font-size: 18px;
+    font-weight: 600;
+    color: #1D2226;
+    text-transform: capitalize;
+}
+
+
+@media screen and (min-width:500px) {
+
+    .landingPage{
+        width: 350px;
+        height: fit-content;
+        padding: 1rem;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #212121;
+        box-shadow: 0px 0px 10px 0px #212121;
+        border-radius: 7px;
+    }
+
+    .heading{
+        font: normal normal medium 28px/17px Rubik;
+        color: #1D2226;
+    }
+
+    .para{
+        margin: 0.5rem;
+        text-align: justify;
+        width: 75%;
+        font-size: 16px;
+        font-weight: 600;
+        color: #1D2226;
+        opacity: 0.6;
+    }
+  
+    
+    .signUpPage{
+        margin: 3rem 1.2rem;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+    .loginPage{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 3rem 1.2rem;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        padding: 1rem;
+        border-radius: 7px;
+        border: 1px solid #212121;
+    }
+    
+    .login-heading{
+        width: 200px;
+        height: 70px;
+        font-weight: 800;
+        font-size: 28px;
+        line-height: 28px;
+        margin-bottom: 0.5rem;
+        color: #1D2226;
+    }
+    
+    .form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 2.5rem;
+    }
+    .form Button{
+        margin: 0 auto;
+        display: block;
+    }
+    
+    .form > input{
+        width: 327px;
+        margin:0.5rem 0;
+        font-size: 15px;
+        outline: none;
+        border: 1px solid #CBCBCB;
+        border-radius: 6px;
+        padding: 0.75rem;
+    }
+
+    .form > label{
+        margin-left: 1.4rem;
+    }
+    .radiolabel > label{
+        margin-left: 1.3rem;
+    }
+    
+
+}
+

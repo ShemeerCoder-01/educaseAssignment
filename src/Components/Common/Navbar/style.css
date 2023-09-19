@@ -1,0 +1,37 @@
+.nav{
+    width: 100%;
+    padding: 0 10px;
+    height: 1.5rem;
+    padding: 1.5rem 0.85rem;
+    font-size: 1.35rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#1D2226;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+}
+
+
+.signoutDiv{
+    width: 34px;
+    height: 35px;
+    background-color: #212121;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 1.5em;
+    top: 1em;
+}
+
+.signoutBtn{
+    border: none;
+    font-size: 1.1rem;
+    border-color: transparent;
+    background-color: inherit;
+    color: #fff;  
+}

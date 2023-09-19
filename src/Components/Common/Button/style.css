@@ -1,0 +1,20 @@
+.btn{
+    width: 335px;
+    height: 46px;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    background: #6C25FF 0% 0% no-repeat padding-box;
+    font-size: 16px;
+    line-height: 17px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0.5rem 0;
+}
+
+
+@media screen and (min-width:500px) {
+    .btn{
+        width: 250px;
+    }
+}
