@@ -14,7 +14,7 @@ function LoginPage() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (!email || !password) {
-      return setErrorMsg("Please fil in all fields");
+      return setErrorMsg("Please fill in all fields");
     }
     try {
       await signInWithEmailAndPassword(auth, email, password);
@@ -58,7 +58,6 @@ function LoginPage() {
           type='email'
           id='email'
           onChange={e => setEmail(e.target.value)}
-          required
         />
 
         <TextField
@@ -85,7 +84,6 @@ function LoginPage() {
           type='password'
           id='password'
           onChange={e => setPassword(e.target.value)}
-          required
         />
 
         <div style={{ color: "red" }}>{errorMsg}</div>

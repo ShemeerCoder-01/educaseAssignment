@@ -45,6 +45,9 @@ function SignUpPage() {
                         "& .MuiInputLabel-root.Mui-focused": {
                             color: "#6C25FF"
                         },
+                        "& .MuiInputLabel-root.Mui-focused .MuiFormLabel-asterisk" :{
+                            color:"#DD4A3D"
+                        },
                         "& .MuiInputBase-input , & .MuiOutlinedInput-input": {
                             fontSize: "12px",
                             padding: "14px 7px",
@@ -70,6 +73,9 @@ function SignUpPage() {
                         },
                         "& .MuiInputLabel-root.Mui-focused": {
                             color: "#6C25FF",
+                        },
+                        "& .MuiInputLabel-root.Mui-focused .MuiFormLabel-asterisk" :{
+                            color:"#DD4A3D"
                         },
                         "& .MuiInputBase-input , & .MuiOutlinedInput-input": {
                             fontSize: "12px",
@@ -97,6 +103,9 @@ function SignUpPage() {
                         "& .MuiInputLabel-root.Mui-focused": {
                             color: "#6C25FF"
                         },
+                        "& .MuiInputLabel-root.Mui-focused .MuiFormLabel-asterisk" :{
+                            color:"#DD4A3D"
+                        },
                         "& .MuiInputBase-input , & .MuiOutlinedInput-input": {
                             fontSize: "12px",
                             padding: "14px 7px",
@@ -122,6 +131,9 @@ function SignUpPage() {
                         },
                         "& .MuiInputLabel-root.Mui-focused": {
                             color: "#6C25FF"
+                        },
+                        "& .MuiInputLabel-root.Mui-focused .MuiFormLabel-asterisk" :{
+                            color:"#DD4A3D"
                         },
                         "& .MuiInputBase-input , & .MuiOutlinedInput-input": {
                             fontSize: "12px",
@@ -149,6 +161,9 @@ function SignUpPage() {
                         "& .MuiInputLabel-root.Mui-focused": {
                             color: "#6C25FF"
                         },
+                        "& .MuiInputLabel-root.Mui-focused .MuiFormLabel-asterisk" :{
+                            color:"#DD4A3D"
+                        },
                         "& .MuiInputBase-input , & .MuiOutlinedInput-input": {
                             fontSize: "12px",
                             padding: "14px 7px",
@@ -165,7 +180,7 @@ function SignUpPage() {
                     onChange={e => setCompany(e.target.value)}
                 />
 
-                <label> Are you an Agency?</label>
+                <label> Are you an Agency?<span style={{color:"#DD4A3D"}}>*</span></label>
                 <div style={{ display: "flex", gap: "14px", margin: "1rem 0" }} className='radiolabel'>
                     <label>
                         <input type='radio' checked={agency=== 'Yes'} onChange={e=> setAgency(e.target.value)}  style={{ marginRight: "7px"}} value={"Yes"} required />
